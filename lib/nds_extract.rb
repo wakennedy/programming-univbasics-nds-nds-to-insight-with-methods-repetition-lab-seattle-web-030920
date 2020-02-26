@@ -43,12 +43,13 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
-  director_index = 0 
-  total = 0  
-  while director_index < source.length do 
-    total += source[director_index][:worldwide_gross]
-    director_index +=1 
+  total = 0 
+  dindex = 0 
+  while directors_totals.length < source.length do 
+    total += directors_totals[dindex][0]
+    dindex+=1 
   end
+  total 
     
   
   

@@ -48,7 +48,8 @@ def total_gross(source)
   director_index = 0 
   total = 0  
   while director_index < list_of_directors.length do 
-    directors_totals = 0 
+    dtotal_index = 0 
+    
   
   
   

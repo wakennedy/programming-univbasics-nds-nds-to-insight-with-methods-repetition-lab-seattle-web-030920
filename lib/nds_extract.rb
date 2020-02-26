@@ -49,7 +49,7 @@ def total_gross(source)
   total = 0  
   while director_index < directors_totals.length do 
     i = 0 
-    list_of_directors[director_index] = directors_totals[director_index][:gross]
+    total += directors_totals[director_index][:gross]
     i +=1
     
   

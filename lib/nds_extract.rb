@@ -49,6 +49,7 @@ def total_gross(source)
     total += directors_totals[i][0]
     i+=1 
   end
+  total
    
   
   
